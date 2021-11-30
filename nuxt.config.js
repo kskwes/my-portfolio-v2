@@ -1,5 +1,14 @@
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+    router: {
+        base: '/my-portfolio-v2/'
+    }
+} : {}
+
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  router: {
+    base: '/my-portfolio-v2/'
+  },
   head: {
     title: 'World Wide Well',
     htmlAttrs: {
