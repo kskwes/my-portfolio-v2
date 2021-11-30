@@ -1,0 +1,50 @@
+.body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    background-color: #f4f7f8;
+    color: #212836;
+}
+
+.header-nav {
+    background-color: #ffffff;
+    color: #212836;
+}
+
+.header-nav-link {
+    color: #212836;
+}
+
+.main-content-section {
+    width: 300px;
+    max-width: 100%;
+}
+
+.link-hover {
+    transition: .4s;
+}
+
+@media screen and (min-width:1024px) {
+    .link-hover:hover {
+        transform: scale(1.04);
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .main-content {
+        padding: 0 20px;
+    }
+}
+
+.main-content-box {
+    width: 100%;
+}
+
+@media screen and (min-width:1024px) {
+    .main-content-box {
+        width: 32%;
+    }
+}
+
+.main-content-box-title {
+    color: #212836;
+}

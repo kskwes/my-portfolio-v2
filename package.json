@@ -1,0 +1,27 @@
+{
+  "name": "my_world_wide_well",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/vue-fontawesome": "^2.0.6",
+    "bulma": "^0.9.3",
+    "core-js": "^3.8.3",
+    "fibers": "^5.0.0",
+    "nuxt": "^2.13.3",
+    "nuxt-fontawesome": "^0.4.0",
+    "nuxt-webfontloader": "^1.1.0",
+    "vue-scrollto": "^2.20.0"
+  },
+  "devDependencies": {
+    "sass": "^1.43.5",
+    "sass-loader": "^10.2.0"
+  }
+}
