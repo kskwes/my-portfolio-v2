@@ -3,7 +3,6 @@
     "name": "index",
     "path": "/",
     "component": "/Users/kosukeusui/clone/my-portfolio-v2/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_2c3d9443"
+    "chunkName": "pages/index"
   }
 ]
