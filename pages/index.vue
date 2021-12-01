@@ -41,7 +41,7 @@
                     Proflie
                 </h1>
                 <div class="image is-96x96 mt-0 mb-4 mr-auto ml-auto">
-                    <img src="/images/icon_profile.png" class="is-rounded" alt="profile">
+                    <img src="/my-portfolio-v2/images/icon_profile.png" class="is-rounded" alt="profile">
                 </div>
                 <p
                     v-html="profile.text"
@@ -115,7 +115,7 @@
 export default {
     data() {
         return {
-            image_src: '/images/',
+            image_src: '/my-portfolio-v2/images/',
             profile: {
                 name: 'Kosuke',
                 text: 'Hello. My name is Kosuke.<br>I am a Web Engineer.',
