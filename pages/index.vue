@@ -168,6 +168,14 @@ export default {
                     github: 'https://github.com/kskwes/jiko', 
                     thumb: 'thumb_jiko.png',
                 },
+                {
+                    id: 5,
+                    title: 'コーポレートサイト',
+                    description: 'コーポレートサイト（WordPress）',
+                    link: 'http://outputground.wp.xdomain.jp/',
+                    github: 'https://github.com/kskwes/wp', 
+                    thumb: 'thumb_wp.png',
+                },
             ],
         }
     }
