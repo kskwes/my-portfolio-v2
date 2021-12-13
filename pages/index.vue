@@ -131,7 +131,7 @@ export default {
                 {
                     id: 2,
                     name: 'Twitter',
-                    link: 'https://twitter.com/coward_92',
+                    link: '#',
                     icon: 'icon_twitter.png',
                 },
             ],
@@ -139,7 +139,7 @@ export default {
                 {
                     id: 1,
                     title: '三択クイズ（Vue.js）',
-                    description: '三択クイズ（Vue.js）',
+                    description: 'Vue.jsで制作した三択式のクイズアプリケーション',
                     link: 'https://kskwes.github.io/vuecli-quiz/',
                     github: 'https://github.com/kskwes/vuecli-quiz', 
                     thumb: 'thumb_quiz.png',
@@ -147,7 +147,7 @@ export default {
                 {
                     id: 2,
                     title: 'コーポレートサイト',
-                    description: 'コーポレートサイト_パターン1（Laravel）',
+                    description: 'Laravelで制作したコーポレートサイト',
                     link: 'http://corporate-site-2021.herokuapp.com/corporate',
                     github: 'https://github.com/kskwes/corporate-site', 
                     thumb: 'thumb_corporate_laravel.png',
@@ -155,7 +155,7 @@ export default {
                 {
                     id: 3,
                     title: 'コーポレートサイト',
-                    description: 'コーポレートサイト_パターン2（HTML）',
+                    description: 'HTMLで制作したコーポレートサイト',
                     link: 'https://kskwes.github.io/corporate-site_html/',
                     github: 'https://github.com/kskwes/corporate-site_html', 
                     thumb: 'thumb_corporate_html.png',
@@ -163,7 +163,7 @@ export default {
                 {
                     id: 4,
                     title: '時効掲示板（PHP）',
-                    description: '時効掲示板（PHP）',
+                    description: '公開日時を設定し、設定した日時を過ぎると初めて公開される掲示板。PHPで制作。',
                     link: 'http://outputground.php.xdomain.jp/jiko/',
                     github: 'https://github.com/kskwes/jiko', 
                     thumb: 'thumb_jiko.png',
@@ -171,10 +171,18 @@ export default {
                 {
                     id: 5,
                     title: 'コーポレートサイト',
-                    description: 'コーポレートサイト（WordPress）',
+                    description: 'WordPressで制作したコーポレートサイト',
                     link: 'http://outputground.wp.xdomain.jp/',
                     github: 'https://github.com/kskwes/wp', 
                     thumb: 'thumb_wp.png',
+                },
+                {
+                    id: 6,
+                    title: 'BINGO GAME',
+                    description: 'アプリケーション：ビンゴゲーム',
+                    link: 'https://kskwes.github.io/my-portfolio/home/portfolio/bingogame/',
+                    github: 'https://github.com/kskwes/my-portfolio/tree/main/home/portfolio/bingogame', 
+                    thumb: 'thumb_bingo.png',
                 },
             ],
         }
