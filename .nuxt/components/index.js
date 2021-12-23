@@ -1,4 +1,4 @@
-export { default as Logo } from '../../components/Logo.vue'
+export const Logo = () => import('../../components/Logo.vue' /* webpackChunkName: "components/logo" */).then(c => wrapFunctional(c.default || c))
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {
